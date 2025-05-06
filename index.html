@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chairs</title>
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="/css/all.min.css">
+
+  <!-- Custom Style -->
+  <link rel="stylesheet" href="/css/style.css">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Monoton&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body class="bg-[#f9f9f1]">
+
+  <!-- Start Navbar -->
+  <div class="navbar py-[10px] shadow-md">
+    <div class="container w-[90%] mx-auto text-black">
+      <nav class="flex items-center justify-between p-4">
+        <!-- Logo -->
+        <div class="flex items-center">
+          <h1 class="text-2xl font-bold">
+            <span class="text-[#d98046]">les</span>
+            <span>Chair</span>
+          </h1>
+        </div>
+
+        <!-- Links (Hidden on small screens) -->
+        <div class="hidden md:flex space-x-8">
+          <a href="#" class="text-gray-900 text-[20px] hover:text-[#d98046] transition-colors">Home</a>
+          <a href="#" class="text-gray-900 text-[20px] hover:text-[#d98046] transition-colors">About</a>
+          <a href="#" class="text-gray-900 text-[20px] hover:text-[#d98046] transition-colors">Services</a>
+          <a href="#" class="text-gray-900 text-[20px] hover:text-[#d98046] transition-colors">Contact</a>
+        </div>
+
+        <!-- Sign In Button -->
+        <div class="hidden md:block">
+          <a href="#" class="bg-[#d98046] text-white px-10 py-4 uppercase rounded-md hover:bg-[#b3652f] transition-colors">Sign In</a>
+        </div>
+
+        <!-- Toggle Button -->
+        <div class="md:hidden">
+          <button id="menu-toggle" class="text-gray-900 cursor-pointer hover:text-[#d98046] focus:outline-none">
+            <i class="fas fa-bars text-2xl"></i>
+          </button>
+        </div>
+      </nav>
+
+      <!-- Mobile Menu -->
+      <div id="mobile-menu" class="hidden md:hidden bg-gray-800">
+        <div class="flex flex-col space-y-4 p-4">
+          <a href="#" class="text-gray-300 hover:text-[#d98046] transition-colors">Home</a>
+          <a href="#" class="text-gray-300 hover:text-[#d98046] transition-colors">About</a>
+          <a href="#" class="text-gray-300 hover:text-[#d98046] transition-colors">Services</a>
+          <a href="#" class="text-gray-300 hover:text-[#d98046] transition-colors">Contact</a>
+          <a href="#" class="bg-[#d98046] text-white px-4 py-2 rounded-md text-center hover:bg-[#b3652f] transition-colors">Sign In</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- End Navbar -->
+
+  <!-- Start Home -->
+  <div class="home mt-[50px] py-[100px] capitalize relative">
+    <div class="container lg:w-[70%] w-[80%] mx-auto">
+      <div class="row grid lg:grid-cols-2 gap-10 items-center">
+        <!-- Left Side -->
+        <div class="space-y-6">
+          <h1 class="text-4xl md:text-5xl font-bold leading-tight">
+            The most <span class="text-[#d98046]">comfortable</span> chair for you
+          </h1>
+          <p class="text-gray-600 text-lg">
+            Discover the perfect blend of style and comfort with our premium chairs, designed to elevate your space and provide unmatched relaxation.
+          </p>
+          <button class="bg-[#d98046] text-white px-6 py-3 rounded-full hover:bg-[#b3652f] transition-colors">
+            Shop Now
+          </button>
+          <div class="flex space-x-8 mt-6">
+            <div class="text-center">
+              <p class="text-[40px] font-bold text-gray-800">12K+</p>
+              <p class="text-gray-500">Products</p>
+            </div>
+            <div class="text-center">
+              <p class="text-[40px] font-bold text-gray-800">21K+</p>
+              <p class="text-gray-500">Customers</p>
+            </div>
+            <div class="text-center">
+              <p class="text-[40px] font-bold text-gray-800">28+</p>
+              <p class="text-gray-500">Reviews</p>
+            </div>
+          </div>
+        </div>
+        <!-- Right Side -->
+        <div class="right-side relative">
+          <img src="/imgs/Home.png" alt="Person sitting on a chair" class="w-[95%] mx-auto max-w-full h-auto" decoding="async" loading="lazy">
+          <img src="/imgs/Tag.png" class="w-[150px] max-w-full absolute top-[-50px] left-[-50px]" alt="" decoding="async" loading="lazy">
+        </div>
+      </div>
+      <div class="back-g-section hidden lg:block md:block"></div>
+    </div>
+  </div>
+  <!-- End Home -->
+
+  <!-- Start Sponsors -->
+  <div class="sponsers ">
+    <div class="container lg:w-[90%] w-[70%] mx-auto">
+      <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 items-center justify-center text-center">
+        <div class="box">
+          <img src="/imgs/c-logo-1.png" alt="" loading="lazy">
+        </div>
+        <div class="box">
+          <img src="/imgs/c-logo-2.png" alt="" loading="lazy">
+        </div>
+        <div class="box">
+          <img src="/imgs/c-logo-3.png" alt="" loading="lazy">
+        </div>
+        <div class="box">
+          <img src="/imgs/c-logo-4.png" alt="" loading="lazy">
+        </div>
+        <div class="box ">
+          <img src="/imgs/c-logo-5.png" alt="" loading="lazy">
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- End Sponsors -->
+<!-- Start popular categories -->
+<div class="categories py-[100px] relative">
+  <div class="main-title text-center">
+    <h1 class="capitalize text-[40px] md:text-[60px] leading-snug">
+      Shop <span class="text-[#d98046] font-bold">popular</span><br> categories
+    </h1>
+  </div>
+  <div class="container w-[70%] mx-auto pt-[50px]">
+    <div class="grid lg:grid-cols-3 gap-10 text-center">
+      <!-- Box 1 -->
+      <div class="box relative">
+          <div class="img-holder">
+            <img src="/imgs/chair1.png" decoding="async" loading="lazy" class="max-w-full w-full h-full" alt="Workspace Chair">
+        </div>
+        <div class="content absolute bottom-0 w-full bg-[#fafafa] p-4 mt-6">
+          <i class="fa-solid fa-plus p-4 absolute top-[-22px] left-1/2 -translate-x-1/2 text-white bg-[#d98046] rounded-full shadow-md"></i>
+          <h2 class="py-2 text-[20px] font-bold">Workspace Chair</h2>
+          <p class="text-gray-400">Indoor Chair</p>
+        </div>
+      </div>
+      <div class="box relative">
+          <div class="img-holder">
+            <img src="/imgs/chair2.png" decoding="async" loading="lazy" class="max-w-full w-full h-full" alt="Workspace Chair">
+        </div>
+        <div class="content absolute bottom-0 w-full bg-[#fafafa] p-4 mt-6">
+          <i class="fa-solid fa-plus p-4 absolute top-[-22px] left-1/2 -translate-x-1/2 text-white bg-[#d98046] rounded-full shadow-md"></i>
+          <h2 class="py-2 text-[20px] font-bold">Ultrabar Chair</h2>
+          <p class="text-gray-400">Indoor Chair</p>
+        </div>
+      </div>
+      <div class="box relative">
+          <div class="img-holder w-full max-w-full h-auto">
+            <img src="/imgs/chair3.png" decoding="async" loading="lazy" class="max-w-full w-full h-full" alt="Workspace Chair">
+        </div>
+        <div class="content absolute bottom-0 w-full bg-[#fafafa] p-4 mt-6">
+          <i class="fa-solid fa-plus p-4 absolute top-[-22px] left-1/2 -translate-x-1/2 text-white bg-[#d98046] rounded-full shadow-md"></i>
+          <h2 class="py-2 text-[20px] font-bold">Minimalist Chair</h2>
+          <p class="text-gray-400">Indoor Chair</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- End popular categories -->
+<!-- Start choose us  -->
+<div class="choose-us py-[50px]">
+  <div class="container w-[80%] mx-auto">
+    <div class="row grid lg:grid-cols-2 items-center  gap-10">
+      <div class="box w-[80%] mx-auto ">
+        <img src="/imgs/about.png" alt="" decoding="async" loading="lazy" class="max-w-full w-full">
+      </div>
+      <div class="box ">
+        <h1 class="text-center lg:text-start capitalize text-[2rem] font-bold">why <span class="text-[#d98046]">Choose</span> us</h1>
+        
+        <p class="text-[#777] py-2 text-center lg:text-start">Our products are of the best quality that is suitable for all activities for you, this is the reason why you consider us as your choice</p>
+        <div class="flex gap-5 flex-col lg:flex-row md:flex-row  mt-[30px]">
+          <div class="content text-center lg:text-start">
+            <div class="text-content relative p-[50px] bg-[#fdecd1] rounded-lg mb-[20px] ">
+              <i class="fas fa-check absolute top-[-30px] text-[white] left-1/2 -translate-x-1/2 p-5 bg-orange-500 text-[20px] rounded-full"></i>
+              <i class="fas fa-check absolute top-[-30px] text-[white] left-1/2 -translate-x-1/2 p-5 bg-orange-500 text-[20px] rounded-full border-5 border-white"></i>
+              <h1 class="text-[2rem] py-2">Heritage</h1> 
+              <p>We are a pioneer, and we continue in new ways of living and working, just as we've done repeatedly</p>
+            </div>
+            <div class="text-content relative p-[20px] bg-[#fdecd1] rounded-lg mb-[20px]">
+              <i class="fas fa-check absolute top-[-30px] text-[white] left-1/2 -translate-x-1/2 p-5 bg-orange-500 text-[20px] rounded-full border-5 border-white"></i>
+              <h1 class="text-[2rem] py-2">Quality</h1> 
+              <p>Our manufacturing facilities use the best, sustainable materials and follow world-class to ensure quality</p>
+            </div>
+          </div>
+          <div class="content text-center lg:text-start">
+            <div class="text-content relative p-[20px] bg-[#fdecd1] rounded-lg mb-[20px]">
+              
+              <i class="fas fa-check absolute top-[-30px] text-[white] left-1/2 -translate-x-1/2 p-5 bg-orange-500 text-[20px] rounded-full border-5 border-white"></i>
+              <h1 class="text-[2rem] py-2">Community</h1> 
+              <p>We always pay attention to our users, we have a community that always accompanies us</p>
+            </div>
+            <div class="text-content relative p-[50px] bg-[#fdecd1] rounded-lg mb-[20px]">
+              <i class="fas fa-check absolute top-[-30px] text-[white] left-1/2 -translate-x-1/2 p-5 bg-orange-500 text-[20px] rounded-full border-5 border-white"></i>
+              <h1 class="text-[2rem] py-2">Longevity</h1> 
+              <p>When the problems you're solving are meaningful to people, and the solutions you propose are honest</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- End choose us  -->
+<!-- Start inroll -->
+<div class="inroll py-[50px]">
+  <div class="container  py-[100px] w-[80%] mx-auto text-center">
+    <div class="content">
+      <h1 class="text-[3rem] font-bold py-3 capitalize">Get Started with <span class="text-[#d98046]">LeChair</span></h1>
+
+      <p class="text-[#777]">subscribe and find super attractive price quotes from us , and make yourself comfortable</p>
+
+      <button class="bg-[#d98046] text-white px-6 py-3 rounded-full hover:bg-[#b3652f] transition-colors mt-6 cursor-pointer">
+        Explore Now
+      </button>        
+    </div>
+  </div>
+</div>
+<!-- End inroll -->
+<!-- Start footer  -->
+<!-- Start footer -->
+<footer class="bg-[#f9f9f1] text-gray-600 py-16">
+  <div class="w-[70%] mx-auto px-6">
+    <div class="grid grid-cols-1 md:grid-cols-4 gap-20">
+      <!-- Column 1: Brand -->
+      <div class="text-center">
+        <h2 class="text-2xl font-bold text-gray-900">LeChair</h2>
+        <p class="mt-3 text-sm text-gray-500">
+          Our vision is to help you make the best chair for you, your family, and relatives.
+        </p>
+      </div>
+
+      <!-- Column 2: About -->
+      <div class="text-center">
+        <h3 class="text-lg font-semibold text-gray-900 mb-4">About</h3>
+        <ul class="space-y-4 text-sm">
+          <li><a href="#" class="text-center text-gray-600 hover:text-[#d98046] transition-colors">About Us</a></li>
+          <li><a href="#" class="text-center text-gray-600 hover:text-[#d98046] transition-colors">Features</a></li>
+          <li><a href="#" class="text-center text-gray-600 hover:text-[#d98046] transition-colors">News & Blogs</a></li>
+        </ul>
+      </div>
+
+      <!-- Column 3: Company -->
+      <div class="text-center">
+        <h3 class="text-lg font-semibold text-gray-900 mb-4">Company</h3>
+        <ul class="space-y-4 text-sm">
+          <li><a href="#" class="text-center text-gray-600 hover:text-[#d98046] transition-colors">How We Work?</a></li>
+          <li><a href="#" class="text-center text-gray-600 hover:text-[#d98046] transition-colors">Capital</a></li>
+          <li><a href="#" class="text-center text-gray-600 hover:text-[#d98046] transition-colors">Security</a></li>
+        </ul>
+      </div>
+
+      <!-- Column 4: Support -->
+      <div class="text-center">
+        <h3 class="text-lg font-semibold text-gray-900 mb-4">Support</h3>
+        <ul class="space-y-4 text-sm">
+          <li><a href="#" class="text-center text-gray-600 hover:text-[#d98046] transition-colors">FAQs</a></li>
+          <li><a href="#" class="text-center text-gray-600 hover:text-[#d98046] transition-colors">Support Center</a></li>
+          <li><a href="#" class="text-center text-gray-600 hover:text-[#d98046] transition-colors">Contact Us</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+<!-- End footer  -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <!-- Tailwind CSS from CDN -->
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+  <!-- Toggle Mobile Menu -->
+  <script>
+    const menuToggle = document.getElementById('menu-toggle');
+    const mobileMenu = document.getElementById('mobile-menu');
+
+    menuToggle.addEventListener('click', () => {
+      mobileMenu.classList.toggle('hidden');
+      const icon = menuToggle.querySelector('i');
+      icon.classList.toggle('fa-bars');
+      icon.classList.toggle('fa-times');
+    });
+  </script>
+</body>
+</html>

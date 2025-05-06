@@ -1,0 +1,54 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  /* font-family: "Monoton", sans-serif; */
+}
+
+/* Start home */
+.home .back-g-section {
+  position: absolute;
+  z-index: -1;
+  background-image: url('/imgs/background.png');
+  background-repeat: no-repeat;
+  height: 90%;
+  width: 50%;
+  right: 0;
+  top: 15px;
+  border-top-left-radius: 50%;
+}
+/* End home */
+/* Start popular categories  */
+.categories .box {
+  /* background-image: url('/imgs/background.png'); */
+  border-top-left-radius:50% ;
+  border-top-right-radius: 50%;
+  box-shadow: 0 4px 10px rgba(0,0,0, .9);
+}
+.categories .box .content {
+  box-shadow: 0 4px 10px rgba(0,0,0, .9);
+}
+.categories .box .img-holder {
+  position: relative;
+  overflow: hidden;
+}
+.categories img {
+  transition: .3s;
+}
+.categories .box .img-holder:hover img {
+  transform: scale(1.1) ;
+  cursor: pointer;
+}
+/*  popular categories  */
+/* Start  choose us */
+.choose-us img {
+  filter: drop-shadow(  0 4px 10px rgba(0,0,0, .9));
+}
+.choose-us .content div {
+  box-shadow: 0 4px 10px rgba(0,0,0, .4);
+}
+/* End  choose us */
+/* Start inroll  */
+.inroll .container {
+  background-image: url('/imgs/background.png');
+  background-position: center;
+}
+/* End inroll  */
